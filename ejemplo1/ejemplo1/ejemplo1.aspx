@@ -9,9 +9,17 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            Mi primera pagina web</div>
-        <div>&nbsp;</div>
+
+
+        <asp:Label ID="lblIngreseNombre" runat="server" Text="Ingrese su nombre: "></asp:Label>
+&nbsp;
+        <asp:TextBox ID="txtNombre" runat="server"></asp:TextBox>
+&nbsp;
+        <asp:Button ID="btnSaludar" runat="server" OnClick="btnSaludar_Click" Text="Saludar" />
+        <br />
+        <br />
+        <asp:Label ID="lblMensaje" runat="server"></asp:Label>
+
     </form>
 </body>
 </html>
