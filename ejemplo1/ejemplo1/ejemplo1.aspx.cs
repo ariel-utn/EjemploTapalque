@@ -16,7 +16,7 @@ namespace ejemplo1
 
         protected void btnSaludar_Click(object sender, EventArgs e)
         {
-            lblMensaje.Text = "Bienvenido/a " + txtNombre.Text;
+            lblMensaje.Text = "HOLA MUNDO";
         }
     }
 }
