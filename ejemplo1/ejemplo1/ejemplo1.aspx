@@ -9,6 +9,8 @@
 </head>
 <body>
     <form id="form1" runat="server">
+
+
         <asp:Label ID="lblIngreseNombre" runat="server" Text="Ingrese su nombre: "></asp:Label>
 &nbsp;
         <asp:TextBox ID="txtNombre" runat="server"></asp:TextBox>
@@ -17,6 +19,7 @@
         <br />
         <br />
         <asp:Label ID="lblMensaje" runat="server"></asp:Label>
+
     </form>
 </body>
 </html>
